@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LevelUp Lounge - Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <style>
+        button:focus{
+            outline: none;
+        }
+    </style>
+
+</head>
+<body>
+    <nav style="background-color: rgb(175, 175, 175); width: 100%; height: 5em; margin-top: 0; display: flex; align-items: center; padding-left: 2em;">
+        <a href="index.html" style="color: black; text-decoration: none;"><h2 style="margin-right: 2em;">LevelUp Lounge</h2></a>
+        <input type="text" class="form-control" style="width: 50%; border-top-right-radius: 0; border-bottom-right-radius: 0;">
+        <button onclick="window.location.href='search.html'" style="border-top-left-radius: 0; border-bottom-left-radius: 0; height: 2.4em;" type="submit" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg></button>
+        <a style="display: flex; align-items: center; color: black; text-decoration: none;" href="myprofile.html"><h3 style="margin-left: 2em;">@username</h3><div style="background-color: black; height: 3em; width: 3em; border-radius: 1.5em; margin-left: 1em; background-image: url(images/jelly-bg2.jpg); background-size: contain;"></div></a>
+    </nav>
+    <div style="display: flex; justify-content: center;">
+    <div style="display:flex; flex-direction: column; padding: 5em; padding-bottom: 4em; align-items: center; margin-right: 5em; margin-top: 3em; width: 40em; min-height: 100vh; border-radius: 1.5em; background-color: rgb(167, 167, 167);">
+        <div style="width: 25em; height: 25em; border-radius: 12em; background-image:url(images/jelly-bg2.jpg)"></div>
+        <h1 style="text-align: center; margin-top: 1em;">display name</h1>
+        <h3>@username</h3>
+        <button class="btn btn-dark btn-lg" style="width: 15em; margin-top: 1em;">Apply</button>
+        <button class="btn btn-dark btn-lg" style="width: 15em; margin-top: 1em;">Revert</button>
+    </div>
+    
+    <div style="padding: 2em; margin-top: 3em; width: 45em; height: 50em; background-color: white; border-bottom: solid grey 1px; border-top: solid grey 1px;">
+       <h1>Edit Profile <button onclick="window.location.href='myprofile.html'" class="comment-btn" style="border: none; background-color: white; float: right;"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M376.6 84.5c11.3-13.6 9.5-33.8-4.1-45.1s-33.8-9.5-45.1 4.1L192 206 56.6 43.5C45.3 29.9 25.1 28.1 11.5 39.4S-3.9 70.9 7.4 84.5L150.3 256 7.4 427.5c-11.3 13.6-9.5 33.8 4.1 45.1s33.8 9.5 45.1-4.1L192 306 327.4 468.5c11.3 13.6 31.5 15.4 45.1 4.1s15.4-31.5 4.1-45.1L233.7 256 376.6 84.5z"/></svg></button></h1>
+        <hr style="margin-bottom: 2em;"/>
+        <h3>Like Visibility<input type="checkbox" style="float:right; height: 25px; width: 25px;"></h3>
+        <hr style="margin-bottom: 2em;"/>
+        <a href="register.html" style="text-decoration: none; color: black;"><h3>Log out<h3></a>
+        <button class="btn btn-danger btn-lg" style="margin-top: 24em;">Deactivate Account</button>
+    </div>
+    </div>
+    <footer style="background-color:rgb(175, 175, 175) ; width: 100%; height: 3em; margin-top: 5em;"></footer>
+</body>
+</html>
